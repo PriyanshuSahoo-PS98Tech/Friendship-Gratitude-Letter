@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Character encoding and viewport settings for responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Message</title>
+
+  <!-- Import Google Font: Poppins in different weights -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Import Font Awesome icons (used for the envelope icon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Internal CSS styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Animated background with floating bubbles -->
+  <div class="animated-bg">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
+  <!-- Audio file to be played on click -->
+  <audio id="bgMusic">
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Envelope icon that acts as a button -->
+  <i class="fas fa-envelope gift-box" onclick="showMessage(this)" aria-label="Open envelope" role="button"
+    tabindex="0"></i>
+
+  <!-- Message container shown after clicking the envelope -->
+  <div class="container" id="messageBox">
+    <h1>Dear Friends</h1>
+    <p>
+      I just want to take a moment to express my gratitude for each of you.
+      Your friendship is a constant source of joy, strength, and comfort in my life.
+      Through every challenge and every celebration, you've been there,
+      and that means more to me than words can fully capture.<br /><br />
+
+      No matter where life takes us, I hope we always remain connected,
+      supporting each other and creating new memories together.
+      You are truly invaluable, and I am lucky to have you in my life.
+    </p>
+    <div class="signature">
+      With appreciation and warmth<br />
+      Priyanshu Sahoo
+    </div>
+  </div>
+
+  <!-- JavaScript to control envelope click and music playback -->
+  <script src="script.js"></script>
+</body>
+
+</html>
