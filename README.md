@@ -31,22 +31,22 @@ The project is **fully customizable** - you can easily modify the message conten
 ## ✨ Features
 
 ### **Interactive Experience**
-- **🎁 Gift Box Animation**: Beautiful envelope/gift box icon that responds to hover with gentle rotation and scaling effects[3]
-- **💌 Smooth Message Reveal**: Click the envelope to reveal your heartfelt message with elegant fade-in animations[1][2]
-- **🎵 Background Music**: Optional soothing background music that plays when the message is revealed[2]
-- **🌊 Floating Bubbles**: Mesmerizing animated bubbles that continuously rise in the background[3]
+- **🎁 Gift Box Animation**: Beautiful envelope/gift box icon that responds to hover with gentle rotation and scaling effects
+- **💌 Smooth Message Reveal**: Click the envelope to reveal your heartfelt message with elegant fade-in animations
+- **🎵 Background Music**: Optional soothing background music that plays when the message is revealed
+- **🌊 Floating Bubbles**: Mesmerizing animated bubbles that continuously rise in the background
 
 ### **Visual Design**
-- **🎨 Gradient Background**: Beautiful blue gradient background that creates a calming atmosphere[3]
-- **💫 Smooth Animations**: CSS keyframe animations for bubble movements and message appearance[3]
-- **📱 Responsive Design**: Optimized for all devices - desktop, tablet, and mobile[3]
-- **🎭 Elegant Typography**: Clean, readable fonts that enhance the emotional impact of your message[3]
+- **🎨 Gradient Background**: Beautiful blue gradient background that creates a calming atmosphere
+- **💫 Smooth Animations**: CSS keyframe animations for bubble movements and message appearance
+- **📱 Responsive Design**: Optimized for all devices - desktop, tablet, and mobile
+- **🎭 Elegant Typography**: Clean, readable fonts that enhance the emotional impact of your message
 
 ### **Personalization**
-- **✏️ Fully Editable Content**: Easily change the message text to express your own thoughts and feelings[1]
-- **🎨 Customizable Colors**: Modify colors, fonts, and styling to match your personal aesthetic[3]
-- **🎵 Personal Music**: Add your own background music or sound effects[2]
-- **📐 Flexible Layout**: Adjust sizing, spacing, and positioning to your preferences[3]
+- **✏️ Fully Editable Content**: Easily change the message text to express your own thoughts and feelings
+- **🎨 Customizable Colors**: Modify colors, fonts, and styling to match your personal aesthetic
+- **🎵 Personal Music**: Add your own background music or sound effects
+- **📐 Flexible Layout**: Adjust sizing, spacing, and positioning to your preferences
 
 ## 🚀 Live Demo
 
@@ -54,11 +54,11 @@ Experience the magic of heartfelt expression: **[https://4804aps-og-friendship-l
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic structure and multimedia support[1][2]
-- **CSS3**: Advanced animations, gradients, and responsive design[3]
-- **JavaScript (ES6)**: Interactive functionality and audio control[2]
-- **Web Audio API**: Background music integration[2]
-- **CSS Animations**: Smooth transitions and keyframe animations[3]
+- **HTML5**: Semantic structure and multimedia support
+- **CSS3**: Advanced animations, gradients, and responsive design
+- **JavaScript (ES6)**: Interactive functionality and audio control
+- **Web Audio API**: Background music integration
+- **CSS Animations**: Smooth transitions and keyframe animations
 
 ## 📁 Project Structure
 
@@ -191,7 +191,7 @@ bgMusic.volume = 0.2; // Change from 0.0 (silent) to 1.0 (full volume)
 ## 🔧 Technical Implementation
 
 ### **Interactive Envelope System**
-The project uses event-driven JavaScript to create the magical reveal effect:[2]
+The project uses event-driven JavaScript to create the magical reveal effect:
 
 ```javascript
 function showMessage(icon) {
@@ -214,7 +214,7 @@ function showMessage(icon) {
 ```
 
 ### **Animated Bubble System**
-CSS keyframe animations create the mesmerizing floating effect:[3]
+CSS keyframe animations create the mesmerizing floating effect:
 
 ```css
 @keyframes rise {
